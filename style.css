@@ -1,0 +1,75 @@
+@import url(https://www.dafont.com/pt/coolvetica.font);
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'lato', sans-serif ;
+
+}
+body{
+	background: linear-gradient(to right, #d4d3dd, #d86464);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	letter-spacing: 5px;
+	font-family: 'Pokemon Solid', cursive;
+	font-size: 36px;
+  	color: #ff0000;
+  	text-align: center;
+
+}
+.pokearma{
+	display: flex ;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:space-between ;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.pokemon{
+	background-color: #eeeeee;
+	border-radius: 10px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.ghost{
+	justify-content: center;
+	width: 5px;
+	height: 30px;
+	
+}
+
+.imgarma{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+
+}
+.imgarma img{
+	max-width: 90%;
+}
+.info {
+	margin-top: 20px;	
+}
+.number{
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 2px 13px;
+	border-radius: 10px;
+	font-size: 0.8rem;
+
+}
+.name{
+	margin: 15px 0 7 px;
+	letter-spacing: 1.5px;
+}
